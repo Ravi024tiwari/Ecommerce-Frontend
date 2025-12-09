@@ -1,8 +1,8 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
 // 🔥 FIX: Import path correct kiya aur Alias (@) use kiya
-import Navbar from "@/components/common/Navbar";
-import Footer from "@/components/common/Footer";
+import Navbar from "../common/NavBar.jsx";
+import Footer from "../common/Footer";
 import AdminSidebar from "../../Pages/AdminSideBar.jsx";
 
 const AdminLayout = () => {
