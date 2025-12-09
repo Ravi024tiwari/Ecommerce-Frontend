@@ -13,7 +13,7 @@ import { createBrowserRouter, RouterProvider, Navigate } from "react-router-dom"
 // Pages Imports
 // 🔥 FIX: Correct Paths (Pages -> pages) & Added AdminDashboard
 import Home from "./Pages/Home.jsx";
-import Login from "./Pages/auth/Login.jsx";
+import Login from "./Pages/Auth/Login.jsx";
 import Register from "./Pages/Auth/Register.jsx";
 import AdminLogin from "./Pages/Auth/AdminLogin.jsx";
 import AdminDashboard from "./Pages/Auth/AdminDashBoard.jsx";
